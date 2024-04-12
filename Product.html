@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="Product.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="./logo.jpeg" width="80px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="./ecom.html">Home</a></li>
+                    <li><a href="./Product.html">Products</a></li>
+                    <li><a href="./About.html">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>   
+            </nav>  
+            <img src="./cart.jfif" alt=""  width="30px" height="30px"  >
+            <img src="./menu.png" alt=""  width="30px" height="30px"   class="menuicon" onclick="menutoggle()">
+        </div>
+        </div>
+    </div>
+    <div class="container pink">
+        <div class="row">
+            <div classs="col-sm-12 pink">
+                
+                <h1>🛍️ELEVATE SHOPPING EXPERIENCE</h1><br>
+            <p>✨ Curated Selection: Our experts handpick the finest products, ensuring you get the best of the best.</p>
+            
+        </div>
+    </div>
+    </div>
+    <!-- <----carts---->
+    <div class="container">
+        <div class="row">
+            <h1>Womens World</h1>
+        </div>
+    </div>
+        <div class="container">
+        <div class="row">
+            <div class="product-card" data-id="1">
+            <div class="col-4">
+                <img src="./trad.jpg" alt="">
+            <h4>Dresses</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+            </div>
+            <p>$78.00</p>
+            <button class="add-to-cart-btn">Add to cart</button>
+            </div></div>
+            <div class="product-card" data-id="2">
+            <div class="col-4">
+                <img src="./istockphoto-1195308178-612x612.jpg" alt="">
+            <h4>Dresses</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+            </div>
+            <p>$78.00</p>
+            <button class="add-to-cart-btn">Add to cart</button>
+            </div></div>
+            <div class="product-card" data-id="3">
+             <div class="col-4">
+                <img src="./watch (5).jpg" alt="">
+            <h4>Dresses</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+            </div>
+            <p>$78.00</p>
+            <button class="add-to-cart-btn">Add to cart</button>
+            </div></div>
+            <div class="product-card" data-id="4">
+            <div class="col-4">
+                <img src="./shoe (5).jpg" alt="">
+            <h4>Dresses</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+            </div>
+            <p>$78.00</p>
+            <button class="add-to-cart-btn">Add to cart</button>
+            </div></div>
+            <div class="product-card" data-id="5">
+            <div class="col-4">
+                <img src="./shoe (2).jpg" alt="">
+            <h4>Dresses</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+            </div>
+            <p>$78.00</p>
+            <button class="add-to-cart-btn">Add to cart</button>
+            </div></div>
+            <div class="product-card" data-id="6">
+            <div class="col-4">
+                <img src="./pexels-david-peterson-1076429.jpg"  alt="">
+            <h4>Dresses</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+            </div>
+            <p>$78.00</p>
+            <button class="add-to-cart-btn">Add to cart</button>
+            </div></div>
+            <div class="product-card" data-id="7">
+            <div class="col-4">
+                <img src="./Women (8).jpg " alt="">
+            <h4>Dresses</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+            </div>
+            <p>$78.00</p>
+            <button class="add-to-cart-btn">Add to cart</button>
+            </div></div>
+            <div class="product-card" data-id="8">
+            <div class="col-4">
+                <img src="./Women (6).jpg" alt="">
+            <h4>Dresses</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+            </div>
+            <p>$78.00</p>
+            <button class="add-to-cart-btn">Add to cart</button>
+            </div></div>
+            <div class="product-card" data-id="7">
+                <div class="col-4">
+                    <img src="./Women (5).jpg " alt="">
+                <h4>Dresses</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <p>$78.00</p>
+                <button class="add-to-cart-btn">Add to cart</button>
+                </div></div>
+                <div class="product-card" data-id="7">
+                    <div class="col-4">
+                        <img src="./Women (4).jpg " alt="">
+                    <h4>Dresses</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <p>$78.00</p>
+                    <button class="add-to-cart-btn">Add to cart</button>
+                    </div></div>
+                    <div class="product-card" data-id="7">
+                        <div class="col-4">
+                            <img src="./Women (2).jpg" alt="">
+                        <h4>Dresses</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <p>$78.00</p>
+                        <button class="add-to-cart-btn">Add to cart</button>
+                        </div></div>
+                        <div class="product-card" data-id="7">
+                            <div class="col-4">
+                                <img src="./Women (3).jpg" alt="">
+                            <h4>Dresses</h4>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </div>
+                            <p>$78.00</p>
+                            <button class="add-to-cart-btn">Add to cart</button>
+                            </div></div>
+       </div>
+       
+    </div>
+    <div class="container">
+        <div class="row">
+            <h1>Mens World</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="product-card" data-id="1">
+            <div class="col-4">
+                <img src="./Men (16).jfif" alt="">
+            <h4>Mens Collection</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+            </div>
+            <p>$78.00</p>
+            <button class="add-to-cart-btn">Add to cart</button>
+            </div></div>
+            <div class="product-card" data-id="2">
+            <div class="col-4">
+                <img src="./Men (2).jfif" alt="">
+            <h4>Mens Collection</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+            </div>
+            <p>$78.00</p>
+            <button class="add-to-cart-btn">Add to cart</button>
+            </div></div>
+            
+            <div class="product-card" data-id="7">
+            <div class="col-4">
+                <img src="./Men (5).jfif " alt="">
+            <h4>Mens Collection</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+            </div>
+            <p>$78.00</p>
+            <button class="add-to-cart-btn">Add to cart</button>
+            </div></div>
+            <div class="product-card" data-id="8">
+            <div class="col-4">
+                <img src="./Men (8).jfif" alt="">
+            <h4>Mens Collection</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+            </div>
+            <p>$78.00</p>
+            <button class="add-to-cart-btn">Add to cart</button>
+            </div></div>
+            <div class="product-card" data-id="3">
+                <div class="col-4">
+                   <img src="./Men (2).jfif" alt="">
+               <h4>Mens Collection</h4>
+               <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-half"></i>
+               </div>
+               <p>$78.00</p>
+               <button class="add-to-cart-btn">Add to cart</button>
+               </div></div>
+               <div class="product-card" data-id="4">
+               <div class="col-4">
+                   <img src="./Men (10).jfif" alt="">
+               <h4>Mens Collection</h4>
+               <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-half"></i>
+               </div>
+               <p>$78.00</p>
+               <button class="add-to-cart-btn">Add to cart</button>
+               </div></div>
+               <div class="product-card" data-id="5">
+               <div class="col-4">
+                   <img src="./Men (11).jfif" alt="">
+               <h4>Mens Collection</h4>
+               <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-half"></i>
+               </div>
+               <p>$78.00</p>
+               <button class="add-to-cart-btn">Add to cart</button>
+               </div></div>
+               <div class="product-card" data-id="6">
+               <div class="col-4">
+                   <img src="./Men (14).jfif"  alt="">
+               <h4>Mens Collection</h4>
+               <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-half"></i>
+               </div>
+               <p>$78.00</p>
+               <button class="add-to-cart-btn">Add to cart</button>
+               </div></div>
+            <div class="product-card" data-id="7">
+                <div class="col-4">
+                    <img src="./Men (2).jfif" alt="">
+                <h4>Mens Collection</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <p>$78.00</p>
+                <button class="add-to-cart-btn">Add to cart</button>
+                </div></div>
+                <div class="product-card" data-id="7">
+                    <div class="col-4">
+                        <img src="./Men (16).jfif " alt="">
+                    <h4>Mens Collection</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <p>$78.00</p>
+                    <button class="add-to-cart-btn">Add to cart</button>
+                    </div></div>
+                    <div class="product-card" data-id="7">
+                        <div class="col-4">
+                            <img src="./Men (10).jfif" alt="">
+                        <h4>Mens Collection</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <p>$78.00</p>
+                        <button class="add-to-cart-btn">Add to cart</button>
+                        </div></div>
+                        <div class="product-card" data-id="7">
+                            <div class="col-4">
+                                <img src="./Men (1).jfif" alt="">
+                            <h4>Mens Collection</h4>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </div>
+                            <p>$78.00</p>
+                            <button class="add-to-cart-btn">Add to cart</button>
+                            </div></div>
+       </div>
+       
+    </div>
+
+
+</div>
+<div class="container">
+    <div class="row">
+        <h1>Gadgets World</h1>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="product-card" data-id="1">
+        <div class="col-4">
+            <img src="./gad (1).jpg" alt="">
+        <h4>Gadget</h4>
+        <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+        </div>
+        <p>$78.00</p>
+        <button class="add-to-cart-btn">Add to cart</button>
+        </div></div>
+        <div class="product-card" data-id="2">
+        <div class="col-4">
+            <img src="./gad (10).jpg" alt="">
+        <h4>Gadget</h4>
+        <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+        </div>
+        <p>$78.00</p>
+        <button class="add-to-cart-btn">Add to cart</button>
+        </div></div>
+        
+        <div class="product-card" data-id="7">
+        <div class="col-4">
+            <img src="./gad (11).jpg " alt="">
+        <h4>Gadget</h4>
+        <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+        </div>
+        <p>$78.00</p>
+        <button class="add-to-cart-btn">Add to cart</button>
+        </div></div>
+        <div class="product-card" data-id="8">
+        <div class="col-4">
+            <img src="./gad (12).jpg" alt="">
+        <h4>Gadget</h4>
+        <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+        </div>
+        <p>$78.00</p>
+        <button class="add-to-cart-btn">Add to cart</button>
+        </div></div>
+        <div class="product-card" data-id="3">
+            <div class="col-4">
+               <img src="./gad (13).jpg" alt="">
+           <h4>Gadget</h4>
+           <div class="rating">
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-half"></i>
+           </div>
+           <p>$78.00</p>
+           <button class="add-to-cart-btn">Add to cart</button>
+           </div></div>
+           <div class="product-card" data-id="4">
+           <div class="col-4">
+               <img src="./gad (14).jpg" alt="">
+           <h4>Gadget</h4>
+           <div class="rating">
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-half"></i>
+           </div>
+           <p>$78.00</p>
+           <button class="add-to-cart-btn">Add to cart</button>
+           </div></div>
+           <div class="product-card" data-id="5">
+           <div class="col-4">
+               <img src="./gad (15).jpg" alt="">
+           <h4>Gadget</h4>
+           <div class="rating">
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-half"></i>
+           </div>
+           <p>$78.00</p>
+           <button class="add-to-cart-btn">Add to cart</button>
+           </div></div>
+           <div class="product-card" data-id="6">
+           <div class="col-4">
+               <img src="./gad (5).jpg"  alt="">
+           <h4>Gadget</h4>
+           <div class="rating">
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-half"></i>
+           </div>
+           <p>$78.00</p>
+           <button class="add-to-cart-btn">Add to cart</button>
+           </div></div>
+        <div class="product-card" data-id="7">
+            <div class="col-4">
+                <img src="./gad (12).jpg" alt="">
+            <h4>Gadget</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+            </div>
+            <p>$78.00</p>
+            <button class="add-to-cart-btn">Add to cart</button>
+            </div></div>
+            <div class="product-card" data-id="7">
+                <div class="col-4">
+                    <img src="./gad (4).jpg" alt="">
+                <h4>Gadget</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <p>$78.00</p>
+                <button class="add-to-cart-btn">Add to cart</button>
+                </div></div>
+                <div class="product-card" data-id="7">
+                    <div class="col-4">
+                        <img src="./gad (9).jpg" alt="">
+                    <h4>Gadget</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <p>$78.00</p>
+                    <button class="add-to-cart-btn">Add to cart</button>
+                    </div></div>
+                    <div class="product-card" data-id="7">
+                        <div class="col-4">
+                            <img src="./gad (8).jpg" alt="">
+                        <h4>Dresses</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <p>$78.00</p>
+                        <button class="add-to-cart-btn">Add to cart</button>
+                        </div></div>
+   </div>
+   
+</div>
+</div>
+</div>
+<div class="cart">
+ <h2>Shopping Cart</h2>
+ <ul class="cart-items"></ul>
+ <p>Total: $<span class="cart-total">0.00</span></p>
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>  Download App for Android and ios mobile phone</p>
+            <div class="app-logo">
+                <img src="./playstore.png" alt="">
+            </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="./logo.jpeg" alt="">
+                <p>Our purpose is to sustainably make the pleasure and
+                     Benefits of Sports Accessible to the Many </p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+               <ul>
+                <li>Coupons</li>
+                <li> Blog Post</li>
+                <li>Return Policy</li>
+                <li> Join Affiliate</li>
+               </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+               <ul>
+                <li>Facebook</li>
+                <li> Twitter</li>
+                <li>Instagram</li>
+                <li> YouTube</li>
+               </ul>
+            </div>
+        </div>
+        <hr>
+   <p class="Copyright"> Copyright 2024</p>
+    </div>
+</div>
+
+
+</script>
+</body>
+</html>
+</div>
+
+    
+</div>
+   
+</body>
+</html>
